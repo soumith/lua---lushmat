@@ -1,4 +1,4 @@
-package = "mattorch"
+package = "lushtorch"
 version = "1.0-0"
 
 source = {
