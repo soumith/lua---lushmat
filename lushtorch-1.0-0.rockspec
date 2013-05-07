@@ -3,7 +3,6 @@ version = "1.0-0"
 
 source = {
 url = "git://github.com/clementfarabet/lua---lushmat",
-tag = "1.0-0"
 }
 
 description = {
@@ -24,6 +23,6 @@ dependencies = {
 build = {
 type = "cmake",
 variables = {
-LUAROCKS_PREFIX = "$(PREFIX)"
-}
+	  LUAROCKS_PREFIX = "$(PREFIX)"
+	  }
 }
